@@ -1,0 +1,35 @@
+Linux File Management
+
+-Create a folder
+ mkdir Linux_Practice
+ cd Linux_Practice
+
+-Create a file
+ touch notes.txt
+
+-Create file called 'reports'
+ touch reports/server.log
+ -Put text in file
+  echo "Server has started" > reports/server.log
+  #> writes output to a file
+  #>> appends output to a file
+  
+  -Display the file
+   cat reports/server.log
+-Search a log
+ echo "ERROR: Service connection failed" >> reports/server.log
+ grep "ERROR" reports/server.log
+ 
+ Purpose of touch:
+ -allows you to create a file
+ Purpose of mkdir:
+ -allows you to create a directory
+ Purpose of echo:
+ -allows you to put text in a created file
+ Purpose of cat:
+ -allows you to concatenate text files
+ Purpose of grep:
+ -prints lines 
+ 
+
+
